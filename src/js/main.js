@@ -5,6 +5,7 @@ import forms from "./modules/forms";
 import changeModalState from "./modules/changeModalState";
 import checkNumInputs from "./modules/checkNumInputs";
 import timer from "./modules/timer";
+import images from "./modules/images";
 
 window.addEventListener('DOMContentLoaded', () => {
 
@@ -18,6 +19,6 @@ window.addEventListener('DOMContentLoaded', () => {
   tabs('.balcon_icons', '.balcon_icons_img', '.big_img > img', 'do_image_more');
   forms();
   timer('.container1', deadline);
-  
+  images();
 
 });
